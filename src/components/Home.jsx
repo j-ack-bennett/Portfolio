@@ -1,4 +1,7 @@
 import React from 'react'
+import { Link } from 'react-scroll'
+
+import '../styles/styles.css'
 
 const Home = () => {
   return (
@@ -11,6 +14,9 @@ const Home = () => {
           <h2 class="subtitle is-3">
             Full Stack Software Developer
           </h2>
+          <div className="pt-6 scroll">
+            <Link className="is-size-5" to="about-me" spy={true} smooth={true} duration={1000}>Click to Scroll Below</Link>
+          </div>
         </div>
       </div>
     </section>
