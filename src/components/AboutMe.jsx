@@ -1,10 +1,18 @@
-import React from 'react';
+import React from 'react'
+import AOS from 'aos'
+
+import '../styles/styles.css'
 
 const AboutMe = () => {
+  AOS.init({
+    delay: 50,
+    duration: 1200
+  })
+  
   return (
-    <section class="section">
+    <section class="section section-spacing" id="about-me">
       <div class="section-heading">
-        <h3 class="title is-2">About Me</h3>
+        <h3 class="title is-2" data-aos="fade-up">About Me</h3>
         {/* <div class="container">
           <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
             field of
@@ -16,10 +24,10 @@ const AboutMe = () => {
       </div>
 
       <div class="columns has-same-height is-gapless">
-        <div class="column">
+        <div class="column" data-aos="fade-right">
           <div class="card">
             <div class="card-content">
-              <h3 class="title is-4">Profile</h3>
+              <h3 class="title is-4">Personal Information</h3>
 
               <div class="content">
                 <table class="table-profile">
@@ -49,7 +57,7 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div class="column">
+        <div class="column" data-aos="fade-left">
           <div class="card">
             <div class="card-image">
               <figure class="image">
