@@ -6,7 +6,7 @@ import '../styles/styles.css'
 const AboutMe = () => {
   AOS.init({
     delay: 50,
-    duration: 1200
+    duration: 2000
   })
   
   return (
@@ -23,7 +23,7 @@ const AboutMe = () => {
         </div> */}
       </div>
 
-      <div class="columns has-same-height is-gapless">
+      <div class="columns has-same-height">
         <div class="column" data-aos="fade-right">
           <div class="card">
             <div class="card-content">
