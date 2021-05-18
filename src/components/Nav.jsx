@@ -1,12 +1,30 @@
-import React from 'react'
-import { Link } from 'react-scroll'
+import React, { useState } from "react"
+import AOS from "aos"
+import { Link } from "react-scroll"
 
 const Nav = () => {
-  return (
-    <nav className="navbar is-link is-fixed-top">
-      <div id="navbarExampleTransparentExample" className="navbar-menu">
-        <div className="navbar-end">
+  AOS.init()
 
+  const [isBurgerVisible, setIsBurgerVisible] = useState(false)
+
+  const toggleBurger = () => {
+    setIsBurgerVisible(currentState => {
+      return !currentState
+    })
+  }
+
+  return (
+    <nav className="navbar is-link is-fixed-top" data-aos="fade" data-aos-delay={300} data-aos-duration={800}>
+      <div className="navbar-brand">
+        <div className={`navbar-burger burger ${isBurgerVisible ? "is-active" : ""}`} onClick={toggleBurger} data-target="navbarMenu">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div id="navbarMenu" className={`navbar-menu ${isBurgerVisible ? "is-active" : ""}`}>
+        <div className="navbar-end">
           <Link className="navbar-item" to="about-me" spy={true} smooth={true} duration={1000}>
             <span className="icon">
               <i className="fa fa-child"></i>
@@ -28,20 +46,19 @@ const Nav = () => {
             <span>Resume</span>
           </Link>
 
-          <a className="navbar-item" href="#portfolio">
+          <Link className="navbar-item" to="projects" spy={true} smooth={true} duration={1000}>
             <span className="icon">
-              <i className="	fa fa-laptop"></i>
+              <i className="fa fa-laptop"></i>
             </span>
             <span>Projects</span>
-          </a>
+          </Link>
 
-          <a className="navbar-item" href="#contact">
+          <Link className="navbar-item" to="contact" spy={true} smooth={true} duration={1000}>
             <span className="icon">
               <i className="fas fa-envelope"></i>
             </span>
             <span>Contact</span>
-          </a>
-
+          </Link>
         </div>
       </div>
     </nav>
