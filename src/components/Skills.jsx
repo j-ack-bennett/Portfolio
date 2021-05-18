@@ -1,8 +1,8 @@
-import React from 'react';
-import AOS from 'aos'
+import React from "react"
+import AOS from "aos"
 
-import 'aos/dist/aos.css'
-import '../styles/styles.css'
+import "aos/dist/aos.css"
+import "../styles/styles.css"
 
 const Skills = () => {
   AOS.init({
@@ -12,13 +12,16 @@ const Skills = () => {
 
   return (
     <section id="skills" className="section section-spacing">
-
       <div className="section-heading">
         <h3 className="title is-2" data-aos="fade-up">Skills</h3>
+        <p className="subtitle is-5 pt-5" data-aos="fade-up">
+          As I continue to grow these, there are always new skills I pick up along the way. 
+        <br /> 
+          Feel free to ask about any of these and how I've applied them to my projects!
+        </p>
       </div>
 
       <div className="container has-text-centered">
-
         <div className="columns" data-aos="flip-up" data-aos-delay={100}>
           <div className="column is-one-quarter">
             <div className="box">
@@ -126,7 +129,7 @@ const Skills = () => {
           <div className="column is-one-quarter">
             <div className="box">
               <div className="content pt-2">
-                <h4 className="title is-5">SASS</h4>
+                <h4 className="title is-5">SCSS</h4>
               </div>
             </div>
           </div>
