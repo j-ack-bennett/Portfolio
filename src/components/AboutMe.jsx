@@ -1,72 +1,69 @@
-import React from 'react'
-import AOS from 'aos'
+import React from "react"
+import AOS from "aos"
 
-import '../styles/styles.css'
+import "../styles/styles.css"
 
 const AboutMe = () => {
-  AOS.init({
-    delay: 50,
-    duration: 2000
-  })
+  AOS.init()
   
   return (
-    <section class="section section-spacing" id="about-me">
-      <div class="section-heading">
-        <h3 class="title is-2" data-aos="fade-up">About Me</h3>
-        {/* <div class="container">
-          <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
-            field of
-            <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
-            Looking for an opportunity to work and upgrade, as well as being involved in an organization that
-            believes
-            in gaining a competitive edge and giving back to the community.</p>
-        </div> */}
+    <section id="about-me" className="section section-spacing">
+      <div className="section-heading">
+        <h3 className="title is-2" data-aos="zoom-in">About Me</h3>
       </div>
+      
+      <div className="container">
+        <div className="columns is-centered has-same-height">
+          <div className="column is-two-thirds" data-aos="fade-down-right">
+            <div className="card">
+              <div className="card-content has-text-centered">
+                <p className="subtitle">
+                  As a full stack web developer, I strive to fuel my passion for tech and expand my knowledge everyday. Working on projects that challenge my development 
+                  approaches and have a positive impact on society definitely help contribute to this.</p>
+                <p className="subtitle">
+                  Throughout my time at Enspiral Dev Academy, I learnt what it was like to work in a fast-paced software development team environment.
+                  Creating full stack applications both individually and in groups, helped me apply agile techniques to these projects. This gave the best possible outcome in terms of
+                  completing an MVP to the highest possible standard, staying committed to proper planning, communication and feedback.
+                </p>
+                <p className="subtitle">
+                  I am now broadening my horizons by learning new programming languages and frameworks, all while solidifying my current knowledge.
+                </p>
+              </div>
+            </div>
+          </div>
 
-      <div class="columns has-same-height">
-        <div class="column" data-aos="fade-right">
-          <div class="card">
-            <div class="card-content">
-              <h3 class="title is-4">Personal Information</h3>
-
-              <div class="content">
-                <table class="table-profile">
-                  <tr>
-                    <th colspan="1"></th>
-                    <th colspan="2"></th>
-                  </tr>
-                  <tr>
-                    <td>Phone:</td>
-                    <td>027 822 9935</td>
-                  </tr>
-                  <tr>
-                    <td>Email:</td>
-                    <td>bennettjack44@gmail.com</td>
-                  </tr>
-                  <tr>
-                    <td>GitHub:</td>
-                    <td><a href='https://github.com/j-ack-bennett'>https://github.com/j-ack-bennett</a></td>
-                  </tr>
-                  <tr>
-                    <td>LinkedIn:</td>
-                    <td><a href='https://www.linkedin.com/in/j-ack-bennett/'>https://www.linkedin.com/in/j-ack-bennett/</a></td>
-                  </tr>
-                </table>
+          <div className="column is-two-thirds" data-aos="fade-down-left">
+            <div className="card">
+              <div className="card-image">
+                <figure className="image">
+                  <img src="profile3.jpg" alt="Placeholder" />
+                </figure>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="column" data-aos="fade-left">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image">
-                <img src="profile.jpg" alt="Placeholder" />
-              </figure>
+        <div className="columns has-same-height is-centered">
+          <div className="column is-two-thirds" data-aos="fade-up-right">
+            <div className="card">
+              <div className="card-image">
+                <figure className="image">
+                  <img src="profile.jpg" alt="Placeholder" />
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <div className="column is-two-thirds" data-aos="fade-up-left">
+            <div className="card">
+              <div className="card-image">
+                <figure className="image">
+                  <img src="profile2.jpg" alt="Placeholder" />
+                </figure>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   )
