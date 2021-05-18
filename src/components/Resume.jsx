@@ -1,13 +1,13 @@
-import React from 'react'
-import AOS from 'aos'
-import { saveAs } from 'file-saver'
+import React from "react"
+import AOS from "aos"
+import { saveAs } from "file-saver"
 
 const Resume = () => {
   AOS.init()
 
   const saveFile = () => {
     saveAs(
-      process.env.PUBLIC_URL + "/resources/cv.pdf",
+      process.env.PUBLIC_URL + "/cv.pdf",
       "JackBennettCV.pdf"
     )
   }
@@ -17,7 +17,7 @@ const Resume = () => {
       <div className="section-heading">
         <h3 className="title is-2">Resume</h3>
         <h4 className="subtitle is-5">More about my previous work experience and skills</h4>
-        <button onClick={saveFile} className="button is-link is-medium">
+        <button className="button is-link is-medium" onClick={saveFile}>
           <span className="icon">
             <i className="fas fa-file-alt"></i>
           </span>
