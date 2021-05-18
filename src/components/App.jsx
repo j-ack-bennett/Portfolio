@@ -7,6 +7,7 @@ import Home from './Home'
 import Nav from './Nav'
 import Projects from './Projects'
 import Resume from './Resume'
+import ScrollArrow from './ScrollArrow'
 import Skills from './Skills'
 import '../styles/App.css'
 import '../styles/styles.css'
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <Nav />
+      <ScrollArrow />
       <Route path='/' exact component={Home} />
       <Route to='/' exact component={AboutMe} />
       <Route to='/' exact component={Skills} />
