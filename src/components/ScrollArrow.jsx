@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import { Link } from 'react-scroll'
+import React, { useState } from "react"
+import { Link } from "react-scroll"
 
-import '../styles/App.css'
+import "../styles/styles.css"
 
 const ScrollArrow = () => {
   const [showScroll, setShowScroll] = useState(false)
@@ -14,16 +14,16 @@ const ScrollArrow = () => {
     }
   }
 
-  window.addEventListener('scroll', checkScrollTop)
+  window.addEventListener("scroll", checkScrollTop)
 
   return (
-    <Link 
+    <Link
       to="home" 
       spy={true} 
       smooth={true} 
       duration={1000} 
       className="scrollTop" 
-      style={{ height: 40, display: showScroll ? 'flex' : 'none' }}
+      style={{ height: 40, display: showScroll ? "flex" : "none" }}
     >
       <i className="fa fa-arrow-circle-up fa-3x"></i>
     </Link>
