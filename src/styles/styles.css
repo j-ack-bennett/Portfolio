@@ -42,9 +42,37 @@ th {
 }
 
 .section-spacing {
-  margin-bottom: 400px;
+  margin-bottom: 200px;
 }
 
 .scroll {
   text-decoration: underline;
+}
+
+.content-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.home-image {
+  width: 50%;
+  height: auto;
+}
+
+.dialog {
+  border: 1px solid grey;
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  top: 40%;
+  width: 100%;
+}
+
+.image-modal {
+  width: 100%;
+  height: auto;
 }
