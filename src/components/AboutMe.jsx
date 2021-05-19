@@ -41,7 +41,7 @@ const AboutMe = () => {
             <div className="card">
               <div className="card-image">
                 <figure className="image">
-                  <img src={pictureOne} alt="Placeholder" />
+                  <img src={pictureOne} alt="Enspiral Dev Academy Kahu 2021 cohort" />
                 </figure>
               </div>
             </div>
@@ -51,7 +51,7 @@ const AboutMe = () => {
             <div className="card">
               <div className="card-image">
                 <figure className="image">
-                  <img src={pictureTwo} alt="Placeholder" />
+                  <img src={pictureTwo} alt="Enspiral Dev Academy final group project team" />
                 </figure>
               </div>
             </div>
