@@ -55,6 +55,7 @@ th {
 }
 
 .image-wrapper {
+  width: 60%;
   display: flex;
   justify-content: center;
 }
