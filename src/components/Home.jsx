@@ -10,8 +10,8 @@ const Home = () => {
 
   return (
     <section id="home" className="hero is-link is-fullheight is-fullheight-with-navbar">
-      <div className="hero-body">
-        <div className="container" style={{ "marginLeft": "180px" }} data-aos="fade" data-aos-delay={300} data-aos-duration={1000}>Kia ora! I am
+      <div className="hero-body home-margin">
+        <div className="container " data-aos="fade" data-aos-delay={300} data-aos-duration={1000}>Kia ora! I am
           <h1 className="title is-1">Jack Bennett</h1>
           <h2 className="subtitle is-3">Full Stack Software Developer</h2>
           <h3 className="subtitle is-4 pt-2">Based in Te Whanga-nui-a-Tara, Aotearoa.</h3>
@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
         
-        <div className="image-wrapper">
+        <div className="image-wrapper is-hidden-mobile">
           <img className="home-image" src={image} alt="Jack" data-aos="fade-down-right" data-aos-delay={300} data-aos-duration={1000} />
         </div>
       </div>
