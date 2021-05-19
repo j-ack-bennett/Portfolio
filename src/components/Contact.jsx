@@ -61,9 +61,17 @@ const Contact = () => {
                     </span>
                     <span>Submit</span></button>
                 </div>
-                <div className="buttons">
-                  <a href="https://www.linkedin.com/in/j-ack-bennett/" className="button is-link">LinkedIn</a>
-                  <a href="https://github.com/j-ack-bennett/" className="button is-link">GitHub</a>
+                <div className="buttons are-large">
+                  <a href="https://www.linkedin.com/in/j-ack-bennett/" className="button is-link">
+                  <span className="icon">
+                    <i className="fab fa-linkedin"></i>
+                  </span>
+                  </a>
+                  <a href="https://github.com/j-ack-bennett/" className="button is-link">
+                  <span className="icon">
+                    <i className="fab fa-github"></i>
+                  </span>
+                  </a>
                 </div>
               </div>
             </div>
