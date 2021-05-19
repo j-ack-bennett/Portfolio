@@ -22,7 +22,7 @@ const ScrollArrow = () => {
       spy={true} 
       smooth={true} 
       duration={1000} 
-      className="scrollTop" 
+      className="scrollTop is-hidden-touch" 
       style={{ height: 40, display: showScroll ? "flex" : "none" }}
     >
       <i className="fa fa-arrow-circle-up fa-3x"></i>
