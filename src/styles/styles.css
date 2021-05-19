@@ -65,6 +65,16 @@ th {
   box-shadow: rgba(255, 255, 255, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 255, 255, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
 }
 
+.home-margin {
+  margin-left: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-margin {
+    margin-left: 0px;
+  }
+}
+
 .dialog {
   border: 1px solid grey;
   box-shadow: 0 8px 6px -6px black;
