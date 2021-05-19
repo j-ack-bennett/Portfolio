@@ -22,8 +22,8 @@ const Skills = () => {
       </div>
 
       <div className="container has-text-centered">
-        <div className="columns" data-aos="flip-up" data-aos-delay={200}>
-          <div className="column is-one-third">
+        <div className="columns is-centered" data-aos="flip-up" data-aos-delay={200}>
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">HTML</h4>
@@ -31,7 +31,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">CSS</h4>
@@ -39,7 +39,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">JavaScript</h4>
@@ -48,8 +48,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="columns" data-aos="flip-up" data-aos-delay={300}>
-          <div className="column is-one-third">
+        <div className="columns is-centered" data-aos="flip-up" data-aos-delay={300}>
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">Git Version Control</h4>
@@ -57,7 +57,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">React</h4>
@@ -65,7 +65,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">Redux</h4>
@@ -74,8 +74,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="columns" data-aos="flip-up" data-aos-delay={400}>
-          <div className="column is-one-third">
+        <div className="columns is-centered" data-aos="flip-up" data-aos-delay={400}>
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">React Native</h4>
@@ -83,7 +83,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">Node</h4>
@@ -91,7 +91,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">Express</h4>
@@ -100,8 +100,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="columns" data-aos="flip-up" data-aos-delay={500}>
-          <div className="column is-one-third">
+        <div className="columns is-centered" data-aos="flip-up" data-aos-delay={500}>
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">Knex</h4>
@@ -109,7 +109,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">SQLite</h4>
@@ -117,7 +117,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">RESTful API's</h4>
@@ -126,8 +126,8 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="columns" data-aos="flip-up" data-aos-delay={600}>
-          <div className="column is-one-third">
+        <div className="columns is-centered" data-aos="flip-up" data-aos-delay={600}>
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">SCSS</h4>
@@ -135,7 +135,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">Agile Techniques</h4>
@@ -143,7 +143,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="column is-one-third">
+          <div className="column is-two-fifths">
             <div className="box">
               <div className="content pt-2">
                 <h4 className="title is-5">Browser & Server Debugging</h4>
