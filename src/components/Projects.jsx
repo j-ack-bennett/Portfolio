@@ -1,17 +1,11 @@
-import React, { useState } from "react"
+import React from "react"
 import AOS from "aos"
 
 import image from "../assets/swopzies.png"
 import "../styles/styles.css"
 
 const Projects = () => {
-  const [isOpen, setIsOpen] = useState(false)
-
   AOS.init()
-
-  const handleShowDialog = () => {
-    setIsOpen(!isOpen)
-  }
 
   return (
     <section className="section section-spacing" id="projects">
@@ -38,26 +32,17 @@ const Projects = () => {
 
         <br />
 
-        <div className="columns" data-aos="fade-up" data-aos-delay={200} data-aos-duration={1000}>
-          <div className="column is-8 is-offset-2">
+        <div className="columns is-centered" data-aos="fade-up" data-aos-delay={200} data-aos-duration={1000}>
+          <div className="column is-full">
             <div className="box">
               <h4 className="title is-4 has-text-centered">Swopzies</h4>
-              <img className="image" src={image} onClick={handleShowDialog} alt="Swopzies website example" />
-              {isOpen && (
-                <dialog
-                  className="dialog"
-                  style={{ position: "absolute" }}
-                  open
-                  onClick={handleShowDialog}
-                >
-                  <img 
-                    className="image-modal"
-                    src={image}
-                    onClick={handleShowDialog}
-                    alt="Swopzies website example"
-                  />
-                </dialog>
-              )}
+              <div className="card">
+                <div className="card-image has-text-centered">
+                  <figure className="image">
+                    <img src={image} alt="Swopzies website example" />
+                  </figure>
+                </div>
+              </div>
               <p className="subtitle pt-6 has-text-centered">
                 <em>A platform to exchange skills and crafts through bartering goods and services.</em>
               </p>
@@ -71,7 +56,7 @@ const Projects = () => {
                 agile methologies, giving and receiving feedback, daily meetups and role diversity to name a few.
               </p>
 
-              <div className="buttons has-addons is-centered">
+              <div className="buttons is-centered">
                 <a href="https://swopzies.herokuapp.com/" className="button is-link">View Website</a>
                 <a href="https://github.com/j-ack-bennett/Swopzies" className="button is-link">View GitHub Repo</a>
               </div>
