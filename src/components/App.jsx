@@ -12,6 +12,7 @@ import ScrollArrow from "./ScrollArrow"
 import Skills from "./Skills"
 // import "../styles/App.css"
 import "../styles/styles.css"
+import "../App.scss"
 
 function App() {
   return (
