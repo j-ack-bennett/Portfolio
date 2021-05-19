@@ -3,6 +3,9 @@ import AOS from "aos"
 
 import "../styles/styles.css"
 
+import pictureOne from "../assets/profile3.jpg"
+import pictureTwo from "../assets/profile.jpg"
+
 const AboutMe = () => {
   AOS.init()
   
@@ -13,8 +16,8 @@ const AboutMe = () => {
       </div>
       
       <div className="container">
-        <div className="columns is-centered has-same-height">
-          <div className="column is-two-thirds" data-aos="fade-down-right">
+        <div className="columns is-centered">
+          <div className="column is-full" data-aos="fade-down">
             <div className="card">
               <div className="card-content has-text-centered">
                 <p className="subtitle">
@@ -31,34 +34,24 @@ const AboutMe = () => {
               </div>
             </div>
           </div>
-
-          <div className="column is-two-thirds" data-aos="fade-down-left">
-            <div className="card">
-              <div className="card-image">
-                <figure className="image">
-                  <img src="profile3.jpg" alt="Placeholder" />
-                </figure>
-              </div>
-            </div>
-          </div>
         </div>
 
-        <div className="columns has-same-height is-centered">
-          <div className="column is-two-thirds" data-aos="fade-up-right">
+        <div className="columns is-centered">
+          <div className="column is-half" data-aos="fade-left">
             <div className="card">
               <div className="card-image">
                 <figure className="image">
-                  <img src="profile.jpg" alt="Placeholder" />
+                  <img src={pictureOne} alt="Placeholder" />
                 </figure>
               </div>
             </div>
           </div>
 
-          <div className="column is-two-thirds" data-aos="fade-up-left">
+          <div className="column is-half" data-aos="fade-right">
             <div className="card">
               <div className="card-image">
                 <figure className="image">
-                  <img src="profile2.jpg" alt="Placeholder" />
+                  <img src={pictureTwo} alt="Placeholder" />
                 </figure>
               </div>
             </div>
