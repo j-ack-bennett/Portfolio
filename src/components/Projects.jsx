@@ -42,7 +42,7 @@ const Projects = () => {
           <div className="column is-8 is-offset-2">
             <div className="box">
               <h4 className="title is-4 has-text-centered">Swopzies</h4>
-              <img classNameName="image" src={image} onClick={handleShowDialog} alt="Swopzies website example" />
+              <img className="image" src={image} onClick={handleShowDialog} alt="Swopzies website example" />
               {isOpen && (
                 <dialog
                   className="dialog"
@@ -51,7 +51,7 @@ const Projects = () => {
                   onClick={handleShowDialog}
                 >
                   <img 
-                    classNameName="image-modal"
+                    className="image-modal"
                     src={image}
                     onClick={handleShowDialog}
                     alt="Swopzies website example"
