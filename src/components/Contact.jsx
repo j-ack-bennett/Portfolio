@@ -13,11 +13,11 @@ const Contact = () => {
   }
 
   return (
-    <form id="contact" className="section section-spacing" onSubmit={sendEmail} data-aos="fade-left" data-aos-duration={1000} data-aos-delay={400} data-aos-offset={800}>
+    <form id="contact" className="section section-spacing" onSubmit={sendEmail} data-aos="fade-left" data-aos-duration={1000} data-aos-delay={400} data-aos-offset={300}>
       <div className="container">
         <div className="section-heading">
-          <h3 className="title is-2">Contact</h3>
-          <h4 className="subtitle is-5 pt-5">Send me an email, contact me on LinkedIn or checkout my GitHub!</h4>
+          <h3 className="title is-2 has-text-black">Contact</h3>
+          <h4 className="subtitle is-5 pt-5 has-text-black">Send me an email, contact me on LinkedIn or checkout my GitHub!</h4>
         </div>
 
         <br />
@@ -59,12 +59,12 @@ const Contact = () => {
                     <span>Submit</span></button>
                 </div>
                 <div className="buttons are-large">
-                  <a href="https://www.linkedin.com/in/j-ack-bennett/" className="button is-link">
+                  <a href="https://www.linkedin.com/in/j-ack-bennett/" className="button is-link is-medium">
                   <span className="icon">
                     <i className="fab fa-linkedin"></i>
                   </span>
                   </a>
-                  <a href="https://github.com/j-ack-bennett/" className="button is-link">
+                  <a href="https://github.com/j-ack-bennett/" className="button is-link is-medium">
                   <span className="icon">
                     <i className="fab fa-github"></i>
                   </span>
