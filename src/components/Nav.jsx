@@ -1,10 +1,7 @@
 import React, { useState } from "react"
-import AOS from "aos"
 import { Link } from "react-scroll"
 
 const Nav = () => {
-  AOS.init()
-
   const [isBurgerVisible, setIsBurgerVisible] = useState(false)
 
   const toggleBurger = () => {
