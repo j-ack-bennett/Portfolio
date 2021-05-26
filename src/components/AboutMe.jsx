@@ -8,19 +8,19 @@ const AboutMe = () => {
     <section id="about-me" className="section section-spacing">
       <div className="container">
         <div className="section-heading">
-          <h3 className="title is-2" data-aos="fade-up" data-aos-duration={1000} data-aos-delay={400}>About Me</h3>
+          <h3 className="title is-2 has-text-black" data-aos="fade-up" data-aos-duration={1000} data-aos-delay={400}>About Me</h3>
         </div>
       
         <div className="has-text-centered" data-aos="fade-down" data-aos-duration={1000} data-aos-delay={400}>
-          <p className="subtitle">
+          <p className="subtitle has-text-black">
             As a full stack web developer, I strive to fuel my passion for tech and expand my knowledge everyday. Working on projects that challenge my development 
             approaches and have a positive impact on society definitely help contribute to this.</p>
-          <p className="subtitle">
+          <p className="subtitle has-text-black">
             Throughout my time at Enspiral Dev Academy, I learnt what it was like to work in a fast-paced software development team environment.
             Creating full stack applications both individually and in groups, helped me apply agile techniques to these projects. This gave the best possible outcome in terms of
             completing an MVP to the highest possible standard, staying committed to proper planning, communication and feedback.
           </p>
-          <p className="subtitle">
+          <p className="subtitle has-text-black">
             I am now broadening my horizons by learning new programming languages and frameworks, all while solidifying my current knowledge.
           </p>
         </div>
