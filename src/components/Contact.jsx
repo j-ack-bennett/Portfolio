@@ -1,10 +1,7 @@
 import React from "react"
-import AOS from "aos"
 import { sendForm } from "emailjs-com"
 
 const Contact = () => {
-  AOS.init()
-
   const sendEmail = (e) => {
     e.preventDefault()
     sendForm("contact_service", "contact_form", e.target, "user_KN5iQsWY5AoWSoPUgz9Am")
@@ -16,7 +13,7 @@ const Contact = () => {
   }
 
   return (
-    <form id="contact" className="section section-spacing" onSubmit={sendEmail} data-aos="fade-up">
+    <form id="contact" className="section section-spacing" onSubmit={sendEmail} data-aos="fade-left" data-aos-duration={1000} data-aos-delay={400} data-aos-offset={800}>
       <div className="container">
         <div className="section-heading">
           <h3 className="title is-2">Contact</h3>
