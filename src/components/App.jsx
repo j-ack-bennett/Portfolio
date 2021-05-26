@@ -1,5 +1,6 @@
 import React from "react"
 import { Route } from "react-router-dom"
+import AOS from "aos"
 
 import AboutMe from "./AboutMe"
 import Contact from "./Contact"
@@ -10,11 +11,13 @@ import Projects from "./Projects"
 import Resume from "./Resume"
 import ScrollArrow from "./ScrollArrow"
 import Skills from "./Skills"
-// import "../styles/App.css"
+import "aos/dist/aos.css"
 import "../styles/styles.css"
 import "../App.scss"
 
 function App() {
+  AOS.init()
+
   return (
     <>
       <Nav />
