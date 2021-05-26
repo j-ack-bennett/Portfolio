@@ -1,3 +1,7 @@
+body {
+  background-color: #fffcf8;
+}
+
 .has-same-height .card {
   height: 320px;
   overflow: hidden;
