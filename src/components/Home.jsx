@@ -1,13 +1,9 @@
 import React from "react"
-import AOS from "aos"
 import { Link } from "react-scroll"
 
 import image from "../assets/jack.JPG"
-import "../styles/styles.css"
 
 const Home = () => {
-  AOS.init()
-
   return (
     <section id="home" className="hero is-link is-fullheight is-fullheight-with-navbar">
       <div className="hero-body home-margin">
