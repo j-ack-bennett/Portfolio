@@ -1,8 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "react-scroll"
 
-import "../styles/styles.css"
-
 const ScrollArrow = () => {
   const [showScroll, setShowScroll] = useState(false)
 
