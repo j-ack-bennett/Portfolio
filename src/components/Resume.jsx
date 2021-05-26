@@ -1,10 +1,7 @@
 import React from "react"
-import AOS from "aos"
 import { saveAs } from "file-saver"
 
 const Resume = () => {
-  AOS.init()
-
   const saveFile = () => {
     saveAs(
       process.env.PUBLIC_URL + "/cv.pdf",
@@ -13,7 +10,7 @@ const Resume = () => {
   }
 
   return (
-    <section id="resume" className="section section-spacing" data-aos="fade-up">
+    <section id="resume" className="section section-spacing" data-aos="fade-right" data-aos-duration={1000} data-aos-delay={400} data-aos-offset={800}>
       <div className="section-heading">
         <h3 className="title is-2">Resume</h3>
         <h4 className="subtitle is-5">More about my previous work experience and skills</h4>
