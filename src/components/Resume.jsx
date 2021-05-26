@@ -10,10 +10,10 @@ const Resume = () => {
   }
 
   return (
-    <section id="resume" className="section section-spacing" data-aos="fade-right" data-aos-duration={1000} data-aos-delay={400} data-aos-offset={800}>
+    <section id="resume" className="section section-spacing" data-aos="fade-right" data-aos-duration={1000} data-aos-delay={400} data-aos-offset={300}>
       <div className="section-heading">
-        <h3 className="title is-2">Resume</h3>
-        <h4 className="subtitle is-5">More about my previous work experience and skills</h4>
+        <h3 className="title is-2 has-text-black">Resume</h3>
+        <h4 className="subtitle is-5 has-text-black">More about my previous work experience and skills</h4>
         <button className="button is-link is-medium" onClick={saveFile}>
           <span className="icon">
             <i className="fas fa-file-alt"></i>
