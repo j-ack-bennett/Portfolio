@@ -12,18 +12,13 @@ const Projects = () => {
 
         <div className="has-text-centered" data-aos="fade-up" data-aos-duration={1000} data-aos-delay={400}>
           <p className="subtitle has-text-black">
-            I'm currently focussed on learning to develop iOS applications. As this is a reasonbly new realm of development for me, 
-            I decided to start with learning React Native. Having previous experience with React has allowed me to transition into React Native a lot easier than using a different framework. 
-            Ultimately I would like to build app's with a native framework like Swift, but I am making do with the operating systems I currently have available to me.
+            At the moment, I am learning to develop mobile applications. I am currently developing projects using React Native, as I have prior experience using React as a front-end JavaScript library.
           </p>
           <p className="subtitle has-text-black">
-            My aim is to bring my ideas to fruition and build mobile applications that will have positive effects on our community.
-            UI and UX design always comes forefront to me, so as a developer I always incorporate simple functionality and appealing features for the user. Having operated iOS devices
-            for a long time now, I've picked up on small things through various app's that I know could easily be improved for a better user experience.
+            I aim to bring my ideas to fruition and build mobile applications that will have positive effects on our community. I incorporate simple functionality and appealing features for the user through careful consideration of UI and UX design.
           </p>
           <p className="subtitle has-text-black">
-            I also have a keen interest in developing small web projects to solidify my knowledge in specific front-end and back-end technologies. 
-            These can be found on my GitHub account linked in my contact section, some of which are still a work in progress.
+            I also have a keen interest in developing web projects to solidify my knowledge in front-end and back-end technologies. These projects can be found on my GitHub account linked in my contact section, some of which are still a work in progress.
           </p>
         </div>
 
@@ -46,11 +41,17 @@ const Projects = () => {
               
               <br />
               
-              <p className="subtitle has-text-centered">
-                This was built as an idea to bring useful technology to our community, incorporating easy to use functionality with a focus on 
-                simple features for people with impaired capabilities.
-                As the product owner of this project, my team and I managed to surpass our minimum viable product within just a week. As a team, we adopted progressive techniques such as
-                agile methologies, giving and receiving feedback, daily meetups and role diversity to name a few.
+              <p className="subtitle has-text-centered has-text-black">
+                Swopzies was built with the intention of bringing the community together through the exchange 
+                of goods and services. As the product owner of this project, my team and I incorporated 
+                easy-to-use functionality, simple features and design to increase accessibility for users, 
+                including those who may have impaired capabilities.
+              </p>
+              <p className="subtitle has-text-centered has-text-black">
+                As a result of careful planning, we managed to surpass our MVP within just a week. 
+                During this project, we applied progressive techniques such as agile methodologies, 
+                regularly giving and receiving feedback, having daily check-ins and communicating 
+                consistently to manage code conflicts.
               </p>
 
               <div className="buttons is-centered">
