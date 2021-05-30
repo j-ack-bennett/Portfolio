@@ -13,15 +13,20 @@ const AboutMe = () => {
       
         <div className="has-text-centered" data-aos="fade-down" data-aos-duration={1000} data-aos-delay={400}>
           <p className="subtitle has-text-black">
-            As a full stack web developer, I strive to fuel my passion for tech and expand my knowledge everyday. Working on projects that challenge my development 
-            approaches and have a positive impact on society definitely help contribute to this.</p>
-          <p className="subtitle has-text-black">
-            Throughout my time at Enspiral Dev Academy, I learnt what it was like to work in a fast-paced software development team environment.
-            Creating full stack applications both individually and in groups, helped me apply agile techniques to these projects. This gave the best possible outcome in terms of
-            completing an MVP to the highest possible standard, staying committed to proper planning, communication and feedback.
+            As a full-stack web developer, I enjoy learning through problem solving, expanding my technical knowledge 
+            and challenging my development approaches. I value working on projects that can have a positive 
+            impact on society and bring communities together.
           </p>
           <p className="subtitle has-text-black">
-            I am now broadening my horizons by learning new programming languages and frameworks, all while solidifying my current knowledge.
+            During my time at Enspiral Dev Academy, I learnt in a fast-paced software development environment by 
+            working independently and in teams to apply agile techniques when creating full-stack applications. 
+            My peers and I collaborated by engaging in detailed planning sessions at the beginning of each 
+            project and provided one another with consistent communication and feedback throughout the process. 
+            This ensured we were able to deliver each MVP to the highest possible standard.
+          </p>
+          <p className="subtitle has-text-black">
+            I am now broadening my horizons by learning new programming languages and frameworks, 
+            all while solidifying my current knowledge.
           </p>
         </div>
 
